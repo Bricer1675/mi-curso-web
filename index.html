@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Curso Web</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Encabezado / Navegación -->
+  <header>
+    <nav class="navbar">
+      <a href="#" class="logo">Mi Curso Web</a>
+      <ul class="nav-links">
+        <li><a href="#cursos">Cursos</a></li>
+        <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Sección Hero -->
+  <section class="hero">
+    <img src="images/banner.jpg" alt="Banner del curso" class="hero-img">
+    <div class="hero-content">
+      <h1>Bienvenido a Mi Curso Web</h1>
+      <p>Aprende a construir páginas web modernas con VS Code y GitHub Pages.</p>
+      <a href="#cursos" class="btn">Ver Cursos</a>
+    </div>
+  </section>
+
+  <!-- Sección de Cursos -->
+  <section id="cursos" class="cursos">
+    <h2>Nuestros Cursos</h2>
+    <div class="curso-grid">
+      <article class="curso-card">
+        <img src="images/python-course.jpg" alt="Curso de Python" class="curso-img">
+        <h3>Curso de Python Básico</h3>
+        <p>Domina los conceptos fundamentales de Python.</p>
+        <a href="#" class="btn">Ver más</a>
+      </article>
+
+      <article class="curso-card">
+        <img src="images/ai-course.jpg" alt="Curso de Inteligencia Artificial" class="curso-img">
+        <h3>Curso de Inteligencia Artificial</h3>
+        <p>Explora técnicas de IA y aprendizaje automático.</p>
+        <a href="#" class="btn">Ver más</a>
+      </article>
+
+      <article class="curso-card">
+        <img src="images/office-course.jpg" alt="Curso de Microsoft Office" class="curso-img">
+        <h3>Curso de Microsoft Office</h3>
+        <p>Mejora tu productividad con Office.</p>
+        <a href="#" class="btn">Ver más</a>
+      </article>
+    </div>
+  </section>
+
+  <!-- Sobre Nosotros -->
+  <section id="sobre-nosotros" class="about">
+    <h2>Sobre Nosotros</h2>
+    <p>Somos un equipo dedicado a la educación en tecnologías web y a formar profesionales con habilidades prácticas.</p>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contacto" class="contact">
+    <h2>Contacto</h2>
+    <form action="#" class="contact-form">
+      <input type="text" name="name" placeholder="Tu nombre" required>
+      <input type="email" name="email" placeholder="Tu correo" required>
+      <textarea name="message" rows="4" placeholder="Tu mensaje" required></textarea>
+      <button type="submit" class="btn">Enviar</button>
+    </form>
+  </section>
+
+  <!-- Pie de página -->
+  <footer>
+    <p>&copy; 2025 Mi Curso Web. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
